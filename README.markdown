@@ -1,4 +1,6 @@
-# osf-markdown-js [![Build Status](https://travis-ci.org/brianjgeiger/osf-markdown-js.png?branch=master)](https://travis-ci.org/tent/tent-markdown-js)
+# osf-markdown-js
+
+<!-- [![Build Status](https://travis-ci.org/brianjgeiger/osf-markdown-js.png?branch=master)](https://travis-ci.org/brianjgeiger/osf-markdown-js) -->
 
 [Open Science Framework](https://osf.io) Dialect for [markdown-js](https://github.com/evilstreak/markdown-js). Right now this is just a test to explore how hard it is to make a plugin for markdown-js.
 

@@ -1,29 +1,29 @@
 {
-  "name": "tent-markdown",
-  "version": "0.2.0",
-  "description": "Tent dialect for markdown lib",
+  "name": "osf-markdown",
+  "version": "0.1.0",
+  "description": "OSF dialect for markdown lib",
   "keywords": [
-    "tent",
+    "osf",
     "markdown"
   ],
   "maintainers": [
-    "Jesse Stuart <jesse@jessestuart.ca>"
+    "Brian J. Geiger <bgeiger@cos.io>"
   ],
   "contributors": [
-    "Jesse Stuart <jesse@jessestuart.ca>"
+    "Brian J. Geiger <bgeiger@cos.io>"
   ],
   "bugs": {
-    "url": "http://github.com/tent/tent-markdown-js/issues"
+    "url": "http://github.com/brianjgeiger/osf-markdown-js/issues"
   },
   "licenses": [
     {
       "type": "BSD",
-      "url": "https://raw.github.com/tent/tent-markdown-js/master/LICENSE"
+      "url": "https://raw.github.com/brianjgeiger/osf-markdown-js/master/LICENSE"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/tent/tent-markdown-js.git"
+    "url": "git://github.com/brianjgeiger/osf-markdown-js.git"
   },
   "main": "./lib/index.js",
   "directories": {

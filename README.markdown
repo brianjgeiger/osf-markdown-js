@@ -1,17 +1,17 @@
-# tent-markdown-js [![Build Status](https://travis-ci.org/tent/tent-markdown-js.png?branch=master)](https://travis-ci.org/tent/tent-markdown-js)
+# osf-markdown-js [![Build Status](https://travis-ci.org/brianjgeiger/osf-markdown-js.png?branch=master)](https://travis-ci.org/tent/tent-markdown-js)
 
-[Tent](https://tent.io) Dialect for [markdown-js](https://github.com/evilstreak/markdown-js).
+[Open Science Framework](https://osf.io) Dialect for [markdown-js](https://github.com/evilstreak/markdown-js). Right now this is just a test to explore how hard it is to make a plugin for markdown-js.
 
 ## Installation
 
-    npm install tent-markdown
+    npm install osf-markdown
 
 ## Usage
 
 ### Node
 
 ```js
-var markdown = require( "tent-markdown" ).markdown;
+var markdown = require( "osf-markdown" ).markdown;
 console.log( markdown.toHTML( "Hello *World*! #firstwords", "Tent", { footnotes: [], hashtagURITemplate: 'http://example.com/search?hashtag={hashtag}' } ) );
 ```
 
@@ -28,7 +28,7 @@ console.log( markdown.toHTML( "Hello *World*! #firstwords", "Tent", { footnotes:
     <textarea id="text-input" oninput="this.editor.update()"
               rows="6" cols="60">^[You](0), Type _Tent_ **Markdown** here.</textarea>
     <div id="preview"> </div>
-    <script src="lib/tent-markdown.js"></script>
+    <script src="lib/osf-markdown.js"></script>
     <script>
       function Editor(input, preview) {
         this.update = function () {
